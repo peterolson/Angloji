@@ -19,6 +19,27 @@
         .deciphered {
             font-weight: bold;
         }
+
+        ol {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 8px;
+            margin: 0;
+            width: 90%;
+        }
+
+        li {
+            display: flex;
+        }
+
+        li span.details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .families {
+            text-align: center;
+        }
     </style>
 </head>
 
