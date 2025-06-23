@@ -56,6 +56,9 @@ export const decipheredData = {
     1907: "-er",
     1616: "two",
     1160: "hundred",
+    3954: "don't",
+    1447: "give",
+    3666: "up",
 
     // guess work
     276: "?it",
@@ -63,9 +66,6 @@ export const decipheredData = {
     //3672: "?final",
     //41: "?(final)ly",
     3734: "?over",
-    3954: "?don't",
-    1447: "?give",
-    3666: "?up",
 };
 
 export const componentFamilies = [
@@ -119,7 +119,7 @@ export const componentFamilies = [
     },
     {
         guess: "basket weaving",
-        examples: [129, 2594],
+        examples: [129, 933, 2594],
     },
     {
         guess: "qu yong",
@@ -135,7 +135,7 @@ export const componentFamilies = [
     },
     {
         guess: "ji",
-        examples: [46, 150, 1347, 1711, 1781, 2469, 2527, 3261, 3819],
+        examples: [46, 150, 1347, 1711, 1781, 2469, 2527, 3261, 3819, 3967],
     },
     {
         guess: "arrow",
@@ -144,5 +144,9 @@ export const componentFamilies = [
     {
         guess: "strong/rich",
         examples: [1399, 1351, 2122],
+    },
+    {
+        guess: "like",
+        examples: [1358, 150, 1421, 2329, 3204, 3339, 3607],
     },
 ];
