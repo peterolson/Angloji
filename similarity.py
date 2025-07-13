@@ -3,7 +3,7 @@ import numpy as np
 from glob import glob
 
 
-def preprocess_image(path, size=(64, 64), threshold=128):
+def preprocess_image(path, size=(100, 100), threshold=128):
     # Load and convert to grayscale
     img = Image.open(path).convert("L")
 

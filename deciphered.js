@@ -37,8 +37,8 @@ export const decipheredData = {
     799: "beauty",
     1660: "(beauti)-ful",
     616: "queen",
-    1351: "strength(1)",
-    2381: "strength(2)",
+    1351: "strong/streng",
+    2381: "-th",
     2294: "prince",
     1767: "peace",
     1883: "love",
@@ -59,13 +59,25 @@ export const decipheredData = {
     3954: "don't",
     1447: "give",
     3666: "up",
+    4104: "tick",
+    4059: "tock",
+    4008: "month",
+    1216: "seven",
+    2122: "more",
+    455: "do",
+    1188: "want",
+    4041: "reveal",
 
     // guess work
-    276: "?it",
-    243: "?with",
+    276: "?this",
+    //243: "?with",
     //3672: "?final",
     //41: "?(final)ly",
     3734: "?over",
+    2159: "?and",
+    933: "?date",
+    257: "?one",
+    1024: "?other/next",
 };
 
 export const componentFamilies = [
@@ -75,7 +87,7 @@ export const componentFamilies = [
     },
     {
         guess: "dream/peace",
-        examples: [2501, 1767],
+        examples: [2501, 1767, 188],
     },
     {
         guess: "bad/negative",
@@ -95,7 +107,7 @@ export const componentFamilies = [
     },
     {
         guess: "time",
-        examples: [3184, 2204, 933],
+        examples: [3184, 2204, 933, 4104, 4059, 4008],
     },
     {
         guess: "day",
@@ -103,7 +115,7 @@ export const componentFamilies = [
     },
     {
         guess: "??? live/promote",
-        examples: [2568, 504, 1336],
+        examples: [2568, 504, 1336, 4041],
     },
     {
         guess: "four",
@@ -131,11 +143,13 @@ export const componentFamilies = [
     },
     {
         guess: "in",
-        examples: [1319, 398],
+        examples: [1319, 398, 4094],
     },
     {
         guess: "ji",
-        examples: [46, 150, 1347, 1711, 1781, 2469, 2527, 3261, 3819, 3967],
+        examples: [
+            46, 150, 129, 1347, 1711, 1781, 2469, 2527, 3261, 3819, 3967,
+        ],
     },
     {
         guess: "arrow",
@@ -143,10 +157,18 @@ export const componentFamilies = [
     },
     {
         guess: "strong/rich",
-        examples: [1399, 1351, 2122],
+        examples: [1399, 1351, 2122, 1782, 687, 3298, 2233],
     },
     {
         guess: "like",
         examples: [1358, 150, 1421, 2329, 3204, 3339, 3607],
+    },
+    {
+        guess: "royal",
+        examples: [2294, 616, 833, 4104],
+    },
+    {
+        guess: "two",
+        examples: [1616, 2934, 807, 3055, 3453],
     },
 ];
