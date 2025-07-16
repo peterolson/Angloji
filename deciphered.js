@@ -67,6 +67,12 @@ export const decipheredData = {
     455: "do",
     1188: "want",
     4041: "reveal",
+    2885: "three",
+    1366: "people",
+    2159: "and",
+    1741: "six",
+    3956: "thousand",
+    4301: "glyph",
 
     // guess work
     276: "?this",
@@ -74,7 +80,6 @@ export const decipheredData = {
     //3672: "?final",
     //41: "?(final)ly",
     3734: "?over",
-    2159: "?and",
     933: "?date",
     257: "?one",
     1024: "?other/next",
@@ -169,6 +174,6 @@ export const componentFamilies = [
     },
     {
         guess: "two",
-        examples: [1616, 2934, 807, 3055, 3453],
+        examples: [1616, 2934, 807, 3055, 3453, 2885],
     },
 ];
