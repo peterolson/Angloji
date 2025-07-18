@@ -73,6 +73,11 @@ export const decipheredData = {
     1741: "six",
     3956: "thousand",
     4301: "glyph",
+    3314: "or",
+    3474: "not",
+    3333: "there",
+    3406: "no",
+    792: "try",
 
     // guess work
     276: "?this",
@@ -153,7 +158,7 @@ export const componentFamilies = [
     {
         guess: "ji",
         examples: [
-            46, 150, 129, 1347, 1711, 1781, 2469, 2527, 3261, 3819, 3967,
+            46, 150, 129, 1347, 1711, 1781, 2469, 2527, 3261, 3333, 3819, 3967,
         ],
     },
     {
