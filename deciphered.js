@@ -78,16 +78,25 @@ export const decipheredData = {
     3333: "there",
     3406: "no",
     792: "try",
+    754: "ring",
+    3734: "over",
+    95: "I",
+    2587: "will",
+    1167: "fury",
+    2532: "all",
+    509: "drown",
+    510: "it",
 
     // guess work
     276: "?this",
     //243: "?with",
     //3672: "?final",
     //41: "?(final)ly",
-    3734: "?over",
     933: "?date",
     257: "?one",
     1024: "?other/next",
+    1347: "?have",
+    3753: "?-ed",
 };
 
 export const componentFamilies = [
@@ -180,5 +189,9 @@ export const componentFamilies = [
     {
         guess: "two",
         examples: [1616, 2934, 807, 3055, 3453, 2885],
+    },
+    {
+        guess: "ing",
+        examples: [1430, 754],
     },
 ];
