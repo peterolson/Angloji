@@ -518,7 +518,10 @@ phone1_95,0829,9.5
 phone1_96,1319,12.1875
 phone1_97,4046,12.0625
 phone1_98,0243,15.4375
-phone1_99,1172,15.125`;
+phone1_99,1172,15.125
+v1_1,2748,14.625
+v1_2,0282,10.75
+v1_3,0688,15.4375`;
 
 export const similarityData = similarityResults
     .split("\n")

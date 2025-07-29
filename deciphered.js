@@ -90,6 +90,7 @@ export const decipheredData = {
     301: "page",
     3131: "are",
     3726: "now",
+    1985: "many",
 
     // guess work
     276: "?this",
@@ -145,7 +146,7 @@ export const componentFamilies = [
         examples: [2856, 3500, 2122],
     },
     {
-        guess: "piao",
+        guess: "many",
         examples: [1985, 504],
     },
     {
