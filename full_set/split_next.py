@@ -66,3 +66,68 @@ split_image(
     start=4125 + 8 * 15 * 15,
     skip=12 * 15,
 )
+
+split_image(
+    "16.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15,
+    skip=0,
+)
+split_image(
+    "17.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 1 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "18.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 2 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "19.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 3 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "20.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 4 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "21.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 5 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "22.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 6 * 20 * 20,
+    skip=0,
+)
+split_image(
+    "23.jpg",
+    columns=20,
+    rows=20,
+    output_dir="split",
+    start=4125 + 9 * 15 * 15 - 12 * 15 + 7 * 20 * 20,
+    skip=46,
+)
