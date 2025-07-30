@@ -1,12 +1,11 @@
 export const decipheredData = {
-    // post 10
     681: "the",
     1781: "happy",
     3521: "birth",
     3184: "day",
     1126: "my",
     3529: "friend",
-    2806: "-s",
+    2806: "-s (plural)",
     2329: "like",
     2481: "call",
     1430: "-ing",
@@ -27,8 +26,12 @@ export const decipheredData = {
     2781: "is",
     2675: "consume",
     3471: "lunch",
-
-    // post 11
+    253: "-s (3p singular)",
+    7098: "lemon",
+    3819: "make",
+    6102: "-ade",
+    252: "life",
+    8051: "give (bring?)",
     346: "mother",
     3826: "father",
     77: "brave",
@@ -127,6 +130,8 @@ export const decipheredData = {
     1568: "lect",
     9078: "-ion",
     3563: "way",
+    476: "if",
+    41: "-ly",
 
     // guess work
     276: "?this",
@@ -175,7 +180,7 @@ export const componentFamilies = [
     },
     {
         guess: "??? live/promote",
-        examples: [2568, 504, 1336, 4041, 9034],
+        examples: [2568, 504, 1336, 4041, 9034, 8051],
     },
     {
         guess: "four",
@@ -195,7 +200,7 @@ export const componentFamilies = [
     },
     {
         guess: "qu yong",
-        examples: [3573, 41, 1504, 2554],
+        examples: [3573, 41, 1504, 2554, 2987],
     },
     {
         guess: "sticky rice",
