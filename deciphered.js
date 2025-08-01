@@ -31,7 +31,7 @@ export const decipheredData = {
     3819: "make",
     6102: "-ade",
     252: "life",
-    8051: "give (bring?)",
+    8051: "give",
     346: "mother",
     3826: "father",
     77: "brave",
@@ -130,8 +130,43 @@ export const decipheredData = {
     1568: "lect",
     9078: "-ion",
     3563: "way",
-    476: "if",
     41: "-ly",
+    528: "too",
+    3946: "method",
+    3573: "write",
+    3453: "word",
+    991: "if",
+    1335: "wish",
+    243: "to",
+    521: "can",
+    1711: "also",
+    8123: "trans(late)",
+    1307: "(trans)late",
+    1877: "into",
+    6423: "(Eng)lish",
+    476: "as",
+    781: "a",
+    8764: "calque",
+    3948: "say",
+    5560: "script",
+    3590: "take",
+    8929: "Japan",
+    6784: "-ese",
+    3374: "even",
+    7937: "calli-",
+    7615: "-y",
+    3987: "graph",
+    3939: "that",
+    1557: "system",
+    5096: "mimick",
+    2619: "with",
+    6572: "al(lure)",
+    3720: "(al)lure",
+    230: "frank",
+    701: "dear",
+    4625: "damn",
+    3753: "-ed",
+    1347: "have",
 
     // guess work
     276: "?this",
@@ -140,8 +175,6 @@ export const decipheredData = {
     //41: "?(final)ly",
     933: "?date",
     257: "?one",
-    1347: "?have",
-    3753: "?-ed",
     2233: "?-est",
 };
 
@@ -156,7 +189,7 @@ export const componentFamilies = [
     },
     {
         guess: "bad/negative",
-        examples: [4009, 3954, 1145, 528, 721],
+        examples: [4009, 3954, 1145, 528, 721, 4625],
     },
     {
         guess: "spiritual",
@@ -199,7 +232,7 @@ export const componentFamilies = [
         examples: [129, 933, 2594],
     },
     {
-        guess: "qu yong",
+        guess: "write",
         examples: [3573, 41, 1504, 2554, 2987],
     },
     {
@@ -214,6 +247,7 @@ export const componentFamilies = [
         guess: "ji",
         examples: [
             46, 150, 129, 1347, 1711, 1781, 2469, 2527, 3261, 3333, 3819, 3967,
+            1335,
         ],
     },
     {
@@ -226,7 +260,7 @@ export const componentFamilies = [
     },
     {
         guess: "like",
-        examples: [1358, 150, 1421, 2329, 3204, 3339, 3607, 3726],
+        examples: [1358, 150, 1421, 2329, 3204, 3339, 3607, 3726, 3590],
     },
     {
         guess: "royal",
@@ -241,8 +275,8 @@ export const componentFamilies = [
         examples: [1430, 754],
     },
     {
-        guess: "tube",
-        examples: [243, 3354, 2746],
+        guess: "to",
+        examples: [243, 3354, 2746, 528],
     },
     {
         guess: "kid leaning on basket",
