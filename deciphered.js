@@ -167,6 +167,10 @@ export const decipheredData = {
     4625: "damn",
     3753: "-ed",
     1347: "have",
+    2448: "glimmer",
+    1336: "mail",
+    3372: "lady",
+    432: "dawn",
 
     // guess work
     276: "?this",
@@ -233,7 +237,7 @@ export const componentFamilies = [
     },
     {
         guess: "write",
-        examples: [3573, 41, 1504, 2554, 2987],
+        examples: [3573, 41, 1504, 2554, 2987, 3886],
     },
     {
         guess: "sticky rice",
