@@ -171,6 +171,10 @@ export const decipheredData = {
     1336: "mail",
     3372: "lady",
     432: "dawn",
+    1049: "answer",
+    3784: "post",
+    282: "rave",
+    129: "wait",
 
     // guess work
     276: "?this",
@@ -180,6 +184,20 @@ export const decipheredData = {
     933: "?date",
     257: "?one",
     2233: "?-est",
+    1446: "?dollar",
+    941: "?prize",
+    1356: "?near",
+    7486: "?left",
+    2872: "?win",
+    8435: "?hot",
+    1421: "?so",
+    3339: "?far",
+    3527: "?create",
+    3298: "?new",
+    6749: "?email",
+    6336: "?-ed",
+    46: "?get",
+    3137: "?single",
 };
 
 export const componentFamilies = [
@@ -193,7 +211,7 @@ export const componentFamilies = [
     },
     {
         guess: "bad/negative",
-        examples: [4009, 3954, 1145, 528, 721, 4625],
+        examples: [4009, 3954, 1145, 528, 721, 4625, 3374],
     },
     {
         guess: "spiritual",
@@ -217,7 +235,7 @@ export const componentFamilies = [
     },
     {
         guess: "??? live/promote",
-        examples: [2568, 504, 1336, 4041, 9034, 8051],
+        examples: [2568, 504, 1336, 4041, 9034, 8051, 2872],
     },
     {
         guess: "four",
@@ -229,10 +247,10 @@ export const componentFamilies = [
     },
     {
         guess: "friend",
-        examples: [3529, 1904, 32, 1239],
+        examples: [3529, 1904, 32, 1239, 5319, 991, 257],
     },
     {
-        guess: "basket weaving",
+        guess: "wait/late",
         examples: [129, 933, 2594],
     },
     {
@@ -248,10 +266,10 @@ export const componentFamilies = [
         examples: [1319, 398, 4094],
     },
     {
-        guess: "ji",
+        guess: "get",
         examples: [
             46, 150, 129, 1347, 1711, 1781, 2469, 2527, 3261, 3333, 3819, 3967,
-            1335,
+            1335, 7189, 2527, 656, 5924, 924,
         ],
     },
     {
@@ -264,7 +282,9 @@ export const componentFamilies = [
     },
     {
         guess: "like",
-        examples: [1358, 150, 1421, 2329, 3204, 3339, 3607, 3726, 3590],
+        examples: [
+            1358, 150, 1421, 2329, 3204, 3339, 3607, 3726, 3590, 1368, 7486,
+        ],
     },
     {
         guess: "royal",
